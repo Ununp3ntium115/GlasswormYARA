@@ -1,11 +1,4 @@
-# Rewritten blog post: GlassWorm’s Zig Dropper Turns One Malicious Extension Into a Multi-IDE Compromise
-
-## Editor’s note
-
-Your original draft used broad, generic cybersecurity language and added unsupported claims such as an Idaho Falls angle and a declared “state of emergency.” The source article does **not** make those claims. This rewrite sticks to what the reporting supports and adds a cleaner structure, stronger technical detail, and a proper source trail.
-
-## Blog rewrite
-
+##
 GlassWorm’s latest evolution is not just another malicious VS Code extension. According to Aikido’s April 8, 2026 research, the campaign now uses a Zig-compiled native addon to turn a single trojanized OpenVSX extension into a cross-editor infection mechanism that can silently push a second-stage implant into every compatible IDE it finds on the machine.
 
 The malicious package, `specstudio/code-wakatime-activity-tracker`, impersonates the legitimate WakaTime developer productivity extension. On the surface, Aikido says it preserves the expected user experience — “same command registrations, same API key prompts, same status bar icons.” But that similarity is the cover, not the story.
